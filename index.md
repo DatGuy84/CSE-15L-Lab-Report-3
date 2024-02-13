@@ -52,5 +52,43 @@ from the end to the beginning of arr.  Once the reverse values of arr are stored
 are changed to match temp.  This fixes the bug since the original array would overwrite the beginning values
 instead of creating a reversed array.
 
-# Researching Commands - Find
+## Researching Commands - Find
 
+4 Different Find Commands:
+
+* -type
+  ```
+  $ find technical -type d
+  technical
+  technical/911report
+  technical/biomed
+  technical/government
+  technical/government/About_LSC
+  technical/government/Alcohol_Problems
+  technical/government/Env_Prot_Agen
+  technical/government/Gen_Account_Office
+  technical/government/Media
+  technical/government/Post_Rate_Comm
+  technical/plos
+  ```
+  ```
+  $ find technical/911report -type f
+  technical/911report/chapter-1.txt
+  technical/911report/chapter-10.txt
+  technical/911report/chapter-11.txt
+  technical/911report/chapter-12.txt
+  technical/911report/chapter-13.1.txt
+  technical/911report/chapter-13.2.txt
+  technical/911report/chapter-13.3.txt
+  technical/911report/chapter-13.4.txt
+  technical/911report/chapter-13.5.txt
+  technical/911report/chapter-2.txt
+  technical/911report/chapter-3.txt
+  technical/911report/chapter-5.txt
+  technical/911report/chapter-6.txt
+  technical/911report/chapter-7.txt
+  technical/911report/chapter-8.txt
+  technical/911report/chapter-9.txt
+  technical/911report/preface.txt
+  ```
+*
