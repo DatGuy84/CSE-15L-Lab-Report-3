@@ -51,3 +51,6 @@ In order to fix the bug, a new array called temp was created and takes in the th
 from the end to the beginning of arr.  Once the reverse values of arr are stored in temp, arr's values
 are changed to match temp.  This fixes the bug since the original array would overwrite the beginning values
 instead of creating a reversed array.
+
+# Researching Commands - Find
+
