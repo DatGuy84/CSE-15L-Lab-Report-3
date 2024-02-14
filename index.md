@@ -94,6 +94,7 @@ instead of creating a reversed array.
   ```
   The command "type" lists all files of the file's type.  This is useful when the user wants to find files
   of a specific type like txt, directories, or symbolic links.
+  Source: https://tecadmin.net/linux-find-command-with-examples/
   
 * -size
   ```
@@ -133,6 +134,7 @@ instead of creating a reversed array.
   ```
   The size command lists all files according to the size provided in the argument.  This is useful to
   know which files are a certain size or if they are above or below a size.
+  Source: https://tecadmin.net/linux-find-command-with-examples/ 
 
 * -mtime
   ```
@@ -158,6 +160,7 @@ instead of creating a reversed array.
   ```
   The mtime command lists the files that were modified in the past certain amount of days.  This
   is useful to know which files were changed on certain days.
+  Source: https://tecadmin.net/linux-find-command-with-examples/ 
 
 *-user
 ```
@@ -201,4 +204,7 @@ government/Post_Rate_Comm/ReportToCongress2002WEB.txt
 government/Post_Rate_Comm/WolakSpeech_usps.txt
 ```
 
-The command 
+The command user list all the files in the directory that are owned by the specified user.
+This is important when working in a group setting with multiple people working on a project
+and can search files based on other group members.
+Source: https://tecadmin.net/linux-find-command-with-examples/ 
